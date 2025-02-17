@@ -7,7 +7,7 @@ library(fs)  # For file utilities
 # --- Settings / Inputs ---
 
 # Path to your .Rmd file
-input_rmd <- "_src/2023-07-06-Visualizing-With-Altair-in-Python.Rmd"
+input_rmd <- "_src/2023-02-11-changing-rstudio-theme.Rmd"
 
 # Today’s date (for post filename and figure folder)
 today_str <- as.character(Sys.Date())  
