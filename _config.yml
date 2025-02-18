@@ -9,38 +9,37 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/Vancouver
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Amir Golzan # the main title
+title: R & Python Blog # the main title
 
-tagline: Data Consultant | Center for Scholarly Communications 
-         The University of British Columbia | Okanagan Campus # it will display as the subtitle
+tagline: Brought to you by UBCO's Centre for Scholarly Communication. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A concise blog for help with R and Python.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://amirgolzan.github.io"
+url: 'https://csc-ubc-okanagan.github.io/R-Python-Blog'
 
 github:
-  username: amirgolzan # change to your GitHub username
+  username: csc-ubc-okanagan  # change to your GitHub username
 
-twitter:
-  username: AmirGolzan # change to your Twitter username
+#twitter:
+#  username:  # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Amir Golzan
-  email: amir.golzan@ubc.ca # change to your email address
+  name: Center for Scholarly Communication, UBC Okanagan
+  email: csc.ok@ubc.ca # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/AmirGolzan # change to your Twitter homepage
-    - https://github.com/amirgolzan # change to your GitHub homepage
+    - https://csc.ok.ubc.ca/  # homepage
+    - https://github.com/csc-ubc-okanagan # GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/amirgolzan
@@ -60,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-T6M8WVRH4K  # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -99,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://pbs.twimg.com/profile_images/1840093983583940610/L7N3jb3v_400x400.jpg
+avatar: https://github.com/amirgolzan/amirgolzan.github.io/blob/main/_data/UBCO-CSC-Icon-Colour-white-bg.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -193,6 +192,14 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
 
 sass:
   style: compressed
