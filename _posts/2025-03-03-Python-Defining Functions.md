@@ -9,17 +9,6 @@ output:
     keep_md: TRUE
 ---
 
----
-title: Defining Functions in Python
-date: '2023-06-15 09:00:00 -0800'
-categories: [Python, P_Getting Started]
-tags: [python] # tags always lowercase
-author: madison
-output: 
-  html_document:
-    keep_md: TRUE
----
-
 Functions take in data and do things with that data. We can write our own functions, but generally in Python we’ll be using functions that have already been written or built. 
 
 Simple functions can be in base Python or in different packages. Take these base Python functions for example:
