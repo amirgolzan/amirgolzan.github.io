@@ -7,7 +7,7 @@ library(fs)  # For file utilities
 # --- Settings / Inputs ---
 
 # Path to your .Rmd file
-input_rmd <- "_src/2022-02-11-PythonIntro.Rmd"
+input_rmd <- "_src/2023-02-11-making-colorblind-friendly-figures.Rmd"
 
 # Today’s date (for post filename and figure folder)
 today_str <- as.character(Sys.Date())  
