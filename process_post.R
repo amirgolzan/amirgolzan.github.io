@@ -7,7 +7,7 @@ library(fs)  # For file utilities
 # --- Settings / Inputs ---
 
 # Path to your .Rmd file
-input_rmd <- "_src/2023-02-11-making-colorblind-friendly-figures.Rmd"
+input_rmd <- "_src/2023-03-07-data-structures-in-R.Rmd"
 
 # Today’s date (for post filename and figure folder)
 today_str <- as.character(Sys.Date())  
@@ -41,7 +41,7 @@ temp_output_dir <- tempdir()  # Render output to a temporary directory
 
 render(
   input         = input_rmd,
-  output_format = "md_document",
+  output_format = "html_document",
   output_file   = rmd_basename,  # e.g., "2024-10-07-transforming-data.md"
   output_dir    = temp_output_dir
 )
