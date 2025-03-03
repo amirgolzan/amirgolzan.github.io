@@ -7,7 +7,7 @@ library(fs)  # For file utilities
 # --- Settings / Inputs ---
 
 # Path to your .Rmd file
-input_rmd <- "_src/2023-03-09-searching-for-files-with-findR.Rmd"
+input_rmd <- "_src/2023-06-05-Python-Defining Functions.Rmd"
 
 # Today’s date (for post filename and figure folder)
 today_str <- as.character(Sys.Date())  
@@ -55,8 +55,6 @@ if (!file_exists(rendered_md)) {
 
 # --- 3. Read and prepend YAML ---
 md_lines <- readLines(rendered_md)
-yaml_frontmatter <- extract_yaml(input_rmd)  # Get YAML from the original .Rmd
-md_lines <- c(yaml_frontmatter, "", md_lines)  # Prepend YAML and add spacing
 
 # --- 4. Move actual figure files and flatten the structure ---
 fig_folder_old <- file.path(temp_output_dir, paste0(rmd_basename, "_files"))
