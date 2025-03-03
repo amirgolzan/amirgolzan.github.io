@@ -7,7 +7,7 @@ library(fs)  # For file utilities
 # --- Settings / Inputs ---
 
 # Path to your .Rmd file
-input_rmd <- "_src/2023-07-06-Basic-Visualizations-in-Python.Rmd"
+input_rmd <- "_src/2023-07-06-Creating-Variables-in-Python.Rmd"
 
 # Today’s date (for post filename and figure folder)
 today_str <- as.character(Sys.Date())  

@@ -34,7 +34,7 @@ setwd('../')
 knitr::include_graphics('figures/basic-viz-plot-1.png')
 ```
 
-![](figures/basic-viz-plot-1.png)<!-- -->
+![](/figures/2025-03-03-Basic-Visualizations-in-Python/figures/)<!-- -->
 
 
 
@@ -62,7 +62,7 @@ setwd('../')
 knitr::include_graphics('figures/basic-viz-plot-1.png')
 ```
 
-![](figures/basic-viz-plot-1.png)<!-- -->
+![](/figures/2025-03-03-Basic-Visualizations-in-Python/figures/)<!-- -->
 
 
 Base Python works well for simple visualizations, but Altair is a package that helps to create personalized and detailed visualizations to suit any task. See the article titled 'Visualizing with Altair in Python' to learn more about it.
