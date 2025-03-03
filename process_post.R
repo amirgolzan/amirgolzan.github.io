@@ -7,7 +7,7 @@ library(fs)  # For file utilities
 # --- Settings / Inputs ---
 
 # Path to your .Rmd file
-input_rmd <- "_src/2023-03-07-data-structures-in-R.Rmd"
+input_rmd <- "_src/2023-03-09-searching-for-files-with-findR.Rmd"
 
 # Today’s date (for post filename and figure folder)
 today_str <- as.character(Sys.Date())  
