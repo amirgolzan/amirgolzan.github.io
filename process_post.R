@@ -7,7 +7,7 @@ library(fs)  # For file utilities
 # --- Settings / Inputs ---
 
 # Path to your .Rmd file
-input_rmd <- "_src/2024-04-09-Sample_Data_Generation.Rmd"
+input_rmd <- "_src/2024-09-16-getting-started-with-github.Rmd"
 
 # Today’s date (for post filename and figure folder)
 today_str <- as.character(Sys.Date())  
